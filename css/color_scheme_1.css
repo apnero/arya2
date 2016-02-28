@@ -1,0 +1,610 @@
+/* camera.less
+=========================================================*/
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font-size: 0;
+  line-height: 0;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@-webkit-keyframes h-progress {
+  0% {
+    width: 0;
+  }
+}
+@-moz-keyframes h-progress {
+  0% {
+    width: 0;
+  }
+}
+@-ms-keyframes h-progress {
+  0% {
+    width: 0;
+  }
+}
+@-o-keyframes h-progress {
+  0% {
+    width: 0;
+  }
+}
+@keyframes h-progress {
+  0% {
+    width: 0;
+  }
+}
+@-webkit-keyframes v-progress {
+  0% {
+    height: 0;
+  }
+}
+@-moz-keyframes v-progress {
+  0% {
+    height: 0;
+  }
+}
+@-ms-keyframes v-progress {
+  0% {
+    height: 0;
+  }
+}
+@-o-keyframes v-progress {
+  0% {
+    height: 0;
+  }
+}
+@keyframes v-progress {
+  0% {
+    height: 0;
+  }
+}
+.camera_prevThumbs,
+.camera_nextThumbs,
+.camera_prev,
+.camera_next,
+.camera_commands,
+.camera_thumbs_cont {
+  background: #ff315d;
+}
+.camera_caption > div .slide-title:before {
+  border: solid 23px #31ccff;
+}
+.camera_caption > div .slide-title:after {
+  border: solid 23px #ff315d;
+}
+.camera_pag .camera_pag_ul li.cameracurrent,
+.camera_pag .camera_pag_ul li:hover {
+  background: #31ccff;
+}
+/* caroufredsel.less
+=========================================================*/
+.caroufredsel_prev,
+.caroufredsel_next {
+  background: #ff315d;
+}
+/* fancybox.less
+=========================================================*/
+/* gallery.less
+=========================================================*/
+.jg_imgalign_catsubs:hover .jg_subcatelem_txt .jg_subcatelem_txt__link {
+  background: #31ccff;
+}
+.jg_subcatelem_txt:before {
+  background: #ff315d;
+}
+.jg_catelem_txt ul li a:hover {
+  color: #ff315d;
+}
+.jg_imgalign_catimgs .jg_catelem_txt:before {
+  background: #ff315d;
+}
+.jg_imgalign_catimgs .jg_catelem_txt .jg_links a:hover i {
+  color: #31ccff;
+}
+.jg_imgalign_catimgs:hover .jg_catelem_txt {
+  background: rgba(255, 49, 93, 0.8);
+}
+/* icemegamenu.less
+=========================================================*/
+.icemegamenu > ul > li > a.iceMenuTitle.hover,
+.icemegamenu > ul > li > a.iceMenuTitle.icemega_active {
+  background: #ff315d;
+}
+.icemegamenu > ul > li.hover > a.iceMenuTitle {
+  background: #ff315d;
+}
+.icemegamenu > ul > li.menu-login-form > a.iceMenuTitle {
+  color: #ff315d;
+}
+ul.icesubMenu li.active > a.iceMenuTitle,
+ul.icesubMenu li:hover > a.iceMenuTitle,
+ul.icesubMenu li.hover > a.iceMenuTitle {
+  background: #31ccff;
+}
+/* komento.less
+=========================================================*/
+#section-kmt .kmt-head .author-kmt a:hover {
+  color: #ff315d;
+}
+#section-kmt .kmt-inreplyto a:hover {
+  color: #ff315d;
+}
+#section-kmt .kmt-time a:hover {
+  color: #ff315d;
+}
+#section-kmt .kmt-control-user .kmt-btn:hover {
+  background: #ff315d;
+}
+#section-kmt .kmt-like-counter:hover {
+  background: #ff315d;
+}
+#section-kmt .kmt-like-counter:hover:after {
+  border-left-color: #ff315d;
+}
+#section-kmt .kmt-rank-progress {
+  background: #ff315d;
+}
+/* kunena.skinner.less
+=========================================================*/
+#Kunena .kcol-category-icon {
+  color: #ff315d;
+}
+#Kunena span.kunreadforum,
+#Kunena span.knotloginforum,
+#Kunena .kwhoicon,
+#Kunena .kstatsicon {
+  color: #ff315d;
+}
+#Kunena .kcol-ktopicicon {
+  color: #ff315d;
+}
+#Kunena #kprofile-tabs dl.tabs dt.open,
+#Kunena #kprofile-edit dl.tabs dt.open,
+#Kunena #kprofile-tabs dl.tabs dt:hover,
+#Kunena #kprofile-edit dl.tabs dt:hover {
+  color: #ff315d;
+}
+#Kunena .kicon-profile-location:before,
+#Kunena .kicon-profile-gender-male:before,
+#Kunena .kicon-profile-birthdate:before,
+#Kunena .kicon-profile-email:before {
+  color: #ff315d;
+}
+#Kunena div.kthead-title a:hover {
+  color: #ff315d;
+}
+#Kunena .kwhoonline strong {
+  color: #ff315d;
+}
+#Kunena td.kcol-kcatlastpost a:hover,
+#Kunena td.kcol-knoposts a:hover {
+  color: #ff315d;
+}
+#Kunena span.kcat-topics-number,
+#Kunena span.kcat-replies-number,
+#Kunena span.ktopic-views-number {
+  background: #ff315d;
+}
+#Kunena div.klatest-subject-by:before {
+  color: #ff315d;
+}
+#Kunena span.klatest-subject-time:before,
+#Kunena span.ktopic-date:before {
+  color: #ff315d;
+}
+#Kunena ul#kstatslistleft li strong,
+#Kunena ul#kstatslistright li strong {
+  color: #ff315d;
+}
+#Kunena div.klist-actions-info-all {
+  color: #ff315d;
+}
+#Kunena td.klist-actions-info-all {
+  color: #ff315d;
+}
+/* layout.less
+=========================================================*/
+/* portfolio.less
+=========================================================*/
+.page-gallery__works .item_img .more_wrapper .vert-align .btn.item_more:hover {
+  background: #31ccff;
+}
+.item_img .articleGalleryZoom:before,
+.item_img .galleryZoomIcon:before {
+  background: #ff315d;
+}
+/* template.less
+=========================================================*/
+.icemegamenu > ul > li > a.iceMenuTitle.hover,
+.icemegamenu > ul > li > a.iceMenuTitle.icemega_active {
+  background: #ff315d !important;
+}
+.mod-newsflash-adv__counters .item + .item:before {
+  background: #ff315d;
+}
+.mod-newsflash-adv__pricing_simple .item .item_content .item_title {
+  color: #31ccff;
+}
+.mod-newsflash-adv__pricing_simple .item .item_content .item_title:after {
+  border: solid 7px #ff315d;
+}
+.mod-newsflash-adv__pricing_simple .item .item_content .readmore:hover {
+  background: #31ccff;
+}
+.mod-newsflash-adv__pricing_simple .item.featured .readmore {
+  background: #31ccff;
+}
+.mod-newsflash-adv__pricing_detailed .row-fluid .item .item_title:after {
+  border: solid 7px #ff315d;
+}
+.mod-newsflash-adv__pricing_detailed .row-fluid .item .item_content {
+  background: #31ccff;
+}
+.mod-newsflash-adv__pricing_detailed .row-fluid .item .item_content .readmore:hover {
+  background: #ff315d;
+}
+.mod-newsflash-adv__pricing_detailed .row-fluid .item.featured .readmore {
+  background: #ff315d;
+}
+.mod-newsflash-adv__home_gallery .item .item_img .more {
+  background: #31ccff;
+}
+.mod-newsflash-adv__home_gallery .item .item_img .more .item_introtext h2:after {
+  border: solid 7px #ff315d;
+}
+.mod-newsflash-adv__home_gallery .item .item_img .more .readmore:hover {
+  background: #ff315d;
+}
+.mod-newsflash-adv__events .item .item_content .item_title a:hover {
+  color: #31ccff;
+}
+.mod-newsflash-adv__events .item .item_content .item_published {
+  color: #31ccff;
+}
+.page-blog article .item_title a:hover,
+.page-item__blog .item_title a:hover {
+  color: #ff315d;
+}
+.page-blog article .item_info dl .komento a:hover,
+.page-item__blog .item_info dl .komento a:hover {
+  color: #ff315d;
+}
+.page-blog article .item_info dl .komento:before,
+.page-item__blog .item_info dl .komento:before {
+  color: #31ccff;
+}
+.page-blog article .item_info dl .item_createdby:before,
+.page-item__blog .item_info dl .item_createdby:before {
+  color: #ff315d;
+}
+.page-blog article .tags li a:hover,
+.page-item__blog .tags li a:hover {
+  color: #ff315d;
+}
+.social-links li a:hover {
+  background: #ff315d;
+}
+.item_fulltext h2.log:before {
+  border: solid 7px #31ccff;
+}
+.item_fulltext h2.log:after {
+  border: solid 7px #ff315d;
+}
+.mod-article-single.mod-article-single__hello p {
+  color: #31ccff;
+}
+.copyright .year:after {
+  content: '⋅';
+}
+.copyright a:hover {
+  color: #ff315d;
+}
+.address_phones i {
+  color: #ff315d;
+}
+.nav.menu.social li a {
+  background: #ff315d;
+}
+#style_switcher,
+#style_switcher .toggler {
+  background: #ff315d;
+}
+a {
+  color: #ff315d;
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  color: #ff315d;
+}
+h1.heading-style-1,
+h2.heading-style-1,
+h3.heading-style-1,
+h4.heading-style-1,
+h5.heading-style-1,
+h6.heading-style-1 {
+  color: #ff315d;
+}
+h1.heading-style-3,
+h2.heading-style-3,
+h3.heading-style-3,
+h4.heading-style-3,
+h5.heading-style-3,
+h6.heading-style-3 {
+  color: #ff315d;
+}
+blockquote:before {
+  color: #31ccff;
+}
+blockquote cite {
+  color: #ff315d;
+}
+.item_introtext mark,
+.item_fulltext mark,
+.category_desc mark {
+  background: #ff315d;
+}
+ol li:before {
+  color: #31ccff;
+}
+ol li a:hover {
+  color: #ff315d;
+}
+.item_introtext ul li:before,
+.item_fulltext ul li:before,
+.category_desc ul li:before,
+.site_map ul li:before {
+  color: #ff315d;
+}
+.item_introtext ul a:hover,
+.item_fulltext ul a:hover,
+.category_desc ul a:hover,
+.site_map ul a:hover,
+.item_introtext ul span:hover,
+.item_fulltext ul span:hover,
+.category_desc ul span:hover,
+.site_map ul span:hover {
+  color: #ff315d;
+}
+ul.icons li:before {
+  border: 12px solid #ff315d;
+}
+.portfolio-meta-list li strong {
+  color: #ff315d;
+}
+div.chzn-container .chzn-results li.highlighted {
+  background: #ff315d;
+}
+div.chzn-container-single.chzn-container-active.chzn-with-drop .chzn-single div:before {
+  color: #ff315d;
+}
+.input-prepend .add-on i,
+.input-prepend .add-on > span {
+  color: #ff315d;
+}
+.input-prepend .add-on:hover i {
+  background: #ff315d;
+}
+/* Allow for input prepend/append in search forms */
+table th {
+  background: #31ccff;
+}
+table a {
+  color: #ff315d;
+}
+dl.table dt {
+  background: #31ccff;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
+  background: #ff315d;
+}
+.btn {
+  background: #31ccff;
+}
+.btn-info {
+  background: #31ccff;
+}
+.btn-link {
+  color: #ff315d;
+}
+.nav-tabs > li > a,
+.nav-tabs > li > span {
+  background: #ff315d;
+}
+.nav-tabs > li > a:hover,
+.nav-tabs > li > span:hover {
+  background: #31ccff;
+}
+.nav-tabs > .active > a,
+.nav-tabs > .current > a,
+.nav-tabs > .active > span,
+.nav-tabs > .current > span {
+  background: #31ccff;
+}
+.nav-list > .active > a,
+.nav-list > .active > a:hover,
+.nav-list > .active > a:focus {
+  background-color: #ff315d;
+}
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.nav-pills > .active > a:focus {
+  background-color: #ff315d;
+}
+.nav .dropdown-toggle .caret {
+  border-top-color: #ff315d;
+  border-bottom-color: #ff315d;
+}
+.breadcrumb li .divider:before {
+  color: #31ccff;
+}
+.breadcrumb li.active {
+  color: #ff315d;
+}
+.breadcrumb a:hover {
+  color: #ff315d;
+}
+.pagination ul li > a:focus,
+.pagination ul li > span:focus {
+  background: #ff315d;
+}
+.pagination ul li > .pagenav,
+.pagination ul li > .hasTooltip {
+  background: #ff315d;
+}
+a.thumbnail:hover,
+a.thumbnail:focus {
+  border-color: #ff315d;
+}
+.label,
+.badge {
+  background: #ff315d;
+}
+@-webkit-keyframes progress-bar-stripes {
+}
+@-moz-keyframes progress-bar-stripes {
+}
+@-ms-keyframes progress-bar-stripes {
+}
+@-o-keyframes progress-bar-stripes {
+}
+@keyframes progress-bar-stripes {
+}
+.progress-horizontal .bar {
+  background: #ff315d;
+}
+.progress-vertical .bar {
+  background: #ff315d;
+}
+.radial-progress svg path:last-child {
+  stroke: #31ccff !important;
+}
+.accordion-group {
+  background: #31ccff;
+}
+@-ms-viewport {
+}
+/* Joomla => Bootstrap Tooltip */
+/* Common styling for Chosen Select Boxes with Input Prepend/Append */
+/* Accessible Hidden Elements (good for hidden labels and such) */
+/* Chosen proper wrapping in Bootstrap btn-group */
+/* Align tip text to left (old mootools tip) */
+.offline_container .well {
+  background: #ff315d;
+}
+.offline_container .well .btn-primary:hover {
+  background: #31ccff;
+  border-color: #31ccff;
+}
+.mod-menu .nav.menu.nav-pills > li.active > a {
+  background: #ff315d;
+}
+.icons .btn-group.pull-right ul.dropdown-menu > li > a:hover {
+  background: #ff315d;
+}
+/*======================= Search & Smart Search ========================*/
+#back-top a {
+  border: 2px solid #ff315d;
+  color: #ff315d;
+}
+#back-top a:hover {
+  background: #ff315d;
+}
+#habla_window_div .habla_offline_submit_input {
+  background: #31ccff !important;
+}
+#habla_window_div #habla_topbar_div {
+  background: #ff315d !important;
+}
+*::selection {
+  background: #ff315d;
+}
+*::-moz-selection {
+  background: #ff315d;
+}
+.icemega_modulewrap.top_search > i.fa-search:hover {
+  color: #ff315d;
+}
+.icemega_modulewrap.top_search i.fa-times {
+  color: #ff315d;
+}
+.icemega_modulewrap.top_search .btn-primary:active,
+.icemega_modulewrap.top_search .btn-primary:focus,
+.icemega_modulewrap.top_search .btn-primary:hover,
+.icemega_modulewrap.top_search .btn-primary.active,
+.icemega_modulewrap.top_search .btn-primary.selected {
+  color: #ff315d;
+}
+.icemega_modulewrap.top_search .btn-primary:active:hover,
+.icemega_modulewrap.top_search .btn-primary:focus:hover,
+.icemega_modulewrap.top_search .btn-primary:hover:hover,
+.icemega_modulewrap.top_search .btn-primary.active:hover,
+.icemega_modulewrap.top_search .btn-primary.selected:hover,
+.icemega_modulewrap.top_search .btn-primary:active.active,
+.icemega_modulewrap.top_search .btn-primary:focus.active,
+.icemega_modulewrap.top_search .btn-primary:hover.active,
+.icemega_modulewrap.top_search .btn-primary.active.active,
+.icemega_modulewrap.top_search .btn-primary.selected.active,
+.icemega_modulewrap.top_search .btn-primary:active.selected,
+.icemega_modulewrap.top_search .btn-primary:focus.selected,
+.icemega_modulewrap.top_search .btn-primary:hover.selected,
+.icemega_modulewrap.top_search .btn-primary.active.selected,
+.icemega_modulewrap.top_search .btn-primary.selected.selected {
+  color: #ff315d;
+}
+.login_shell .btn-primary {
+  background: #ff315d;
+}
+div#fixed-sidebar-right .moduletable.login > i.fa-user {
+  background: #ff315d;
+}
+div#fixed-sidebar-right .moduletable.login .mod_login_wrapper .input-prepend .add-on:hover i {
+  color: #ff315d;
+}
+.page-category__history .items-row > div:before {
+  background: #ff315d;
+}
+.page-category__history .items-row:before {
+  background: #ff315d;
+}
+.page-category__faqs .item_title span.item_title_part0 {
+  color: #ff315d;
+}
+.contact_details .icons-marker {
+  color: #ff315d;
+}
+@media (max-width: 767px) {
+  .rd-mobilemenu_ul a.iceMenuTitle:hover {
+    background: #ff315d;
+  }
+  .rd-mobilemenu_ul a.active,
+  .rd-mobilemenu_ul li.level_1.active > a {
+    background: #ff315d;
+  }
+  .rd-mobilemenu_submenu li.active > a {
+    background: #31ccff;
+  }
+}
