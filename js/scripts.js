@@ -112,20 +112,20 @@ jQuery(document).ready(function($) {
             }
         })
     }
-    var o = $('input[type=radio]');
-    if (o.length && !$('body').hasClass('.com_config')) {
-        o.each(function() {
-            if ($(this).parent().not('span.radio')) {
-                if (!$(this).attr("id")) {
-                    $(this).attr({
-                        id: 'radio' + i
-                    }).wrap('<span class="radio"/>').after('<label class="radio_inner" for="radio' + i + '"/>')
-                } else {
-                    $(this).wrap('<span class="radio"/>').after('<label class="radio_inner" for="' + $(this).attr("id") + '"/>')
-                }
-            }
-        })
-    }
+    // var o = $('input[type=radio]');
+    // if (o.length && !$('body').hasClass('.com_config')) {
+    //     o.each(function() {
+    //         if ($(this).parent().not('span.radio')) {
+    //             if (!$(this).attr("id")) {
+    //                 $(this).attr({
+    //                     id: 'radio' + i
+    //                 }).wrap('<span class="radio"/>').after('<label class="radio_inner" for="radio' + i + '"/>')
+    //             } else {
+    //                 $(this).wrap('<span class="radio"/>').after('<label class="radio_inner" for="' + $(this).attr("id") + '"/>')
+    //             }
+    //         }
+    //     })
+    // }
     var o = $('table');
     if (o.length && !o.hasClass('kblocktable')) {
         function createTables(element) {

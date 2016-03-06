@@ -4,241 +4,7 @@
 <head>
     <!-- <base href="http://livedemo00.template-help.com/joomla_57740/index.php/about" /> -->
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<!--     <script type="text/javascript">
-        //<![CDATA[
-        try {
-            if (!window.CloudFlare) {
-                var CloudFlare = [{
-                    verbose: 0,
-                    p: 0,
-                    byc: 0,
-                    owlid: "cf",
-                    bag2: 1,
-                    mirage2: 0,
-                    oracle: 0,
-                    paths: {
-                        cloudflare: "/cdn-cgi/nexp/dok3v=1613a3a185/"
-                    },
-                    atok: "46b2af0a1b9f791feae7615c6c6efa88",
-                    petok: "d0e165c10a7bc7b63181bab443e306cc29a5f8eb-1456626663-86400",
-                    zone: "template-help.com",
-                    rocket: "0",
-                    apps: {
-                        "abetterbrowser": {
-                            "ie": "7"
-                        },
-                        "ga_key": {
-                            "ua": "UA-7078796-5",
-                            "ga_bs": "2"
-                        }
-                    },
-                    sha2test: 0
-                }];
-                ! function(a, b) {
-                    a = document.createElement("script"), b = document.getElementsByTagName("script")[0], a.async = !0, a.src = "//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=fb690a32f5/cloudflare.min.js", b.parentNode.insertBefore(a, b)
-                }()
-            }
-        } catch (e) {};
-        //]]>
-    </script> -->
-    <script type="text/javascript">
-        window.NREUM || (NREUM = {}), __nr_require = function(e, n, t) {
-            function r(t) {
-                if (!n[t]) {
-                    var o = n[t] = {
-                        exports: {}
-                    };
-                    e[t][0].call(o.exports, function(n) {
-                        var o = e[t][1][n];
-                        return r(o || n)
-                    }, o, o.exports)
-                }
-                return n[t].exports
-            }
-            if ("function" == typeof __nr_require) return __nr_require;
-            for (var o = 0; o < t.length; o++) r(t[o]);
-            return r
-        }({
-            QJf3ax: [function(e, n) {
-                function t(e) {
-                    function n(n, t, a) {
-                        e && e(n, t, a), a || (a = {});
-                        for (var u = c(n), f = u.length, s = i(a, o, r), p = 0; f > p; p++) u[p].apply(s, t);
-                        return s
-                    }
 
-                    function a(e, n) {
-                        f[e] = c(e).concat(n)
-                    }
-
-                    function c(e) {
-                        return f[e] || []
-                    }
-
-                    function u() {
-                        return t(n)
-                    }
-                    var f = {};
-                    return {
-                        on: a,
-                        emit: n,
-                        create: u,
-                        listeners: c,
-                        _events: f
-                    }
-                }
-
-                function r() {
-                    return {}
-                }
-                var o = "nr@context",
-                    i = e("gos");
-                n.exports = t()
-            }, {
-                gos: "7eSDFh"
-            }],
-            ee: [function(e, n) {
-                n.exports = e("QJf3ax")
-            }, {}],
-            3: [function(e, n) {
-                function t(e) {
-                    return function() {
-                        r(e, [(new Date).getTime()].concat(i(arguments)))
-                    }
-                }
-                var r = e("handle"),
-                    o = e(1),
-                    i = e(2);
-                "undefined" == typeof window.newrelic && (newrelic = window.NREUM);
-                var a = ["setPageViewName", "addPageAction", "setCustomAttribute", "finished", "addToTrace", "inlineHit", "noticeError"];
-                o(a, function(e, n) {
-                    window.NREUM[n] = t("api-" + n)
-                }), n.exports = window.NREUM
-            }, {
-                1: 12,
-                2: 13,
-                handle: "D5DuLP"
-            }],
-            gos: [function(e, n) {
-                n.exports = e("7eSDFh")
-            }, {}],
-            "7eSDFh": [function(e, n) {
-                function t(e, n, t) {
-                    if (r.call(e, n)) return e[n];
-                    var o = t();
-                    if (Object.defineProperty && Object.keys) try {
-                        return Object.defineProperty(e, n, {
-                            value: o,
-                            writable: !0,
-                            enumerable: !1
-                        }), o
-                    } catch (i) {}
-                    return e[n] = o, o
-                }
-                var r = Object.prototype.hasOwnProperty;
-                n.exports = t
-            }, {}],
-            D5DuLP: [function(e, n) {
-                function t(e, n, t) {
-                    return r.listeners(e).length ? r.emit(e, n, t) : void(r.q && (r.q[e] || (r.q[e] = []), r.q[e].push(n)))
-                }
-                var r = e("ee").create();
-                n.exports = t, t.ee = r, r.q = {}
-            }, {
-                ee: "QJf3ax"
-            }],
-            handle: [function(e, n) {
-                n.exports = e("D5DuLP")
-            }, {}],
-            XL7HBI: [function(e, n) {
-                function t(e) {
-                    var n = typeof e;
-                    return !e || "object" !== n && "function" !== n ? -1 : e === window ? 0 : i(e, o, function() {
-                        return r++
-                    })
-                }
-                var r = 1,
-                    o = "nr@id",
-                    i = e("gos");
-                n.exports = t
-            }, {
-                gos: "7eSDFh"
-            }],
-            id: [function(e, n) {
-                n.exports = e("XL7HBI")
-            }, {}],
-            G9z0Bl: [function(e, n) {
-                function t() {
-                    var e = d.info = NREUM.info,
-                        n = f.getElementsByTagName("script")[0];
-                    if (e && e.licenseKey && e.applicationID && n) {
-                        c(p, function(n, t) {
-                            n in e || (e[n] = t)
-                        });
-                        var t = "https" === s.split(":")[0] || e.sslForHttp;
-                        d.proto = t ? "https://" : "http://", a("mark", ["onload", i()]);
-                        var r = f.createElement("script");
-                        r.src = d.proto + e.agent, n.parentNode.insertBefore(r, n)
-                    }
-                }
-
-                function r() {
-                    "complete" === f.readyState && o()
-                }
-
-                function o() {
-                    a("mark", ["domContent", i()])
-                }
-
-                function i() {
-                    return (new Date).getTime()
-                }
-                var a = e("handle"),
-                    c = e(1),
-                    u = window,
-                    f = u.document;
-                e(2);
-                var s = ("" + location).split("?")[0],
-                    p = {
-                        beacon: "bam.nr-data.net",
-                        errorBeacon: "bam.nr-data.net",
-                        agent: "js-agent.newrelic.com/nr-768.min.js"
-                    },
-                    d = n.exports = {
-                        offset: i(),
-                        origin: s,
-                        features: {}
-                    };
-                f.addEventListener ? (f.addEventListener("DOMContentLoaded", o, !1), u.addEventListener("load", t, !1)) : (f.attachEvent("onreadystatechange", r), u.attachEvent("onload", t)), a("mark", ["firstbyte", i()])
-            }, {
-                1: 12,
-                2: 3,
-                handle: "D5DuLP"
-            }],
-            loader: [function(e, n) {
-                n.exports = e("G9z0Bl")
-            }, {}],
-            12: [function(e, n) {
-                function t(e, n) {
-                    var t = [],
-                        o = "",
-                        i = 0;
-                    for (o in e) r.call(e, o) && (t[i] = n(o, e[o]), i += 1);
-                    return t
-                }
-                var r = Object.prototype.hasOwnProperty;
-                n.exports = t
-            }, {}],
-            13: [function(e, n) {
-                function t(e, n, t) {
-                    n || (n = 0), "undefined" == typeof t && (t = e ? e.length : 0);
-                    for (var r = -1, o = t - n || 0, i = Array(0 > o ? 0 : o); ++r < o;) i[r] = e[n + r];
-                    return i
-                }
-                n.exports = t
-            }, {}]
-        }, {}, ["G9z0Bl"]);
-    </script>
     <meta name="generator" content="Joomla! - Open Source Content Management" />
     <title>About</title>
     <link href="http://livedemo00.template-help.com/index.php" rel="canonical" />
@@ -258,7 +24,9 @@
     <link rel="stylesheet" href="/css/camera.css" type="text/css" />
     <link rel="stylesheet" href="/css/icemegamenu.css" type="text/css" />
     <link rel="stylesheet" href="/css/navbar.css" type="text/css" />
-    <script type='text/javascript' src='http://maps.google.com/maps/api/js?v=3.exp&amp;language=en-GB&amp;libraries=places&amp;sensor=false'></script>
+    <link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+        <script type='text/javascript' src='http://maps.google.com/maps/api/js?v=3.exp&amp;language=en-GB&amp;libraries=places&amp;sensor=false'></script>
     <script src="/js/jquery.min.js" type="text/javascript"></script>
     <script src="/js/jquery-noconflict.js" type="text/javascript"></script>
     <script src="/js/jquery-migrate.min.js" type="text/javascript"></script>
@@ -278,246 +46,14 @@
     <script type='text/javascript' src='http://www.google.com/uds/?file=earth&amp;v=1'></script>
     <script type='text/javascript' src='/js/googleearth.js'></script>
     <script type='text/javascript' src='/js/googlemapsv3.js'></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function() {
-            jQuery('.hasTooltip').tooltip({
-                "html": true,
-                "container": "body"
-            });
-        });
 
-        jQuery(document).ready(function() {
-            jQuery('select').chosen({
-                "disable_search_threshold": 10,
-                "allow_single_deselect": true,
-                "placeholder_text_multiple": "Select some options",
-                "placeholder_text_single": "Select an option",
-                "no_results_text": "No results match"
-            });
-        });
 
-        var path = "templates/theme3197/js/";
-        (function($) {
-            $(document).ready(function() {
-                var o = $("#back-top");
-                $(window).scroll(function() {
-                    if ($(this).scrollTop() > 100) {
-                        o.fadeIn()
-                    } else {
-                        o.fadeOut()
-                    }
-                });
-                var $scrollEl = ($.browser.mozilla || $.browser.msie) ? $("html") : $("body");
-                o.find("a").click(function() {
-                    $scrollEl.animate({
-                        scrollTop: 0
-                    }, 400);
-                    return false
-                })
-            })
-        })(jQuery);
-        (function($) {
-            $(document).ready(function() {
-                var o = $('a[href="#modal"]');
-                o.click(function(e) {
-                    $("#modal").modal({
-                        show: true,
-                        backdrop: false
-                    });
-                    e.preventDefault()
-                });
-                $("#modal button.modalClose").click(function(e) {
-                    $("#modal").modal("hide");
-                    e.preventDefault()
-                });
-                $(".modal-hide").click(function(e) {
-                    $("#modal").modal("hide")
-                })
-            })
-        })(jQuery);
-        window.setInterval(function() {
-            var r;
-            try {
-                r = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP")
-            } catch (e) {}
-            if (r) {
-                r.open("GET", "/joomla_57740/index.php?option=com_ajax&format=json", true);
-                r.send(null)
-            }
-        }, 840000);
-        (function($) {
-            $(document).ready(function() {
-                $(".moduletable#module_107>i.fa-user").click(function() {
-                    $(".moduletable#module_107").toggleClass("shown")
-                })
-            })
-        })(jQuery);
-        window.olark || (function(c) {
-            var f = window,
-                d = document,
-                l = f.location.protocol == "https:" ? "https:" : "http:",
-                z = c.name,
-                r = "load";
-            var nt = function() {
-                f[z] = function() {
-                    (a.s = a.s || []).push(arguments)
-                };
-                var a = f[z]._ = {},
-                    q = c.methods.length;
-                while (q--) {
-                    (function(n) {
-                        f[z][n] = function() {
-                            f[z]("call", n, arguments)
-                        }
-                    })(c.methods[q])
-                }
-                a.l = c.loader;
-                a.i = nt;
-                a.p = {
-                    0: +new Date
-                };
-                a.P = function(u) {
-                    a.p[u] = new Date - a.p[0]
-                };
-
-                function s() {
-                    a.P(r);
-                    f[z](r)
-                }
-                f.addEventListener ? f.addEventListener(r, s, false) : f.attachEvent("on" + r, s);
-                var ld = function() {
-                    function p(hd) {
-                        hd = "head";
-                        return ["<", hd, "></", hd, "><", i, ' onl' + 'oad="var d=', g, ";d.getElementsByTagName('head')[0].", j, "(d.", h, "('script')).", k, "='", l, "//", a.l, "'", '"', "></", i, ">"].join("")
-                    }
-                    var i = "body",
-                        m = d[i];
-                    if (!m) {
-                        return setTimeout(ld, 100)
-                    }
-                    a.P(1);
-                    var j = "appendChild",
-                        h = "createElement",
-                        k = "src",
-                        n = d[h]("div"),
-                        v = n[j](d[h](z)),
-                        b = d[h]("iframe"),
-                        g = "document",
-                        e = "domain",
-                        o;
-                    n.style.display = "none";
-                    m.insertBefore(n, m.firstChild).id = z;
-                    b.frameBorder = "0";
-                    b.id = z + "-loader";
-                    if (/MSIE[ ]+6/.test(navigator.userAgent)) {
-                        b.src = "javascript:false"
-                    }
-                    b.allowTransparency = "true";
-                    v[j](b);
-                    try {
-                        b.contentWindow[g].open()
-                    } catch (w) {
-                        c[e] = d[e];
-                        o = "javascript:var d=" + g + ".open();d.domain='" + d.domain + "';";
-                        b[k] = o + "void(0);"
-                    }
-                    try {
-                        var t = b.contentWindow[g];
-                        t.write(p());
-                        t.close()
-                    } catch (x) {
-                        b[k] = o + 'd.write("' + p().replace(/"/g, String.fromCharCode(92) + '"') + '");d.close();'
-                    }
-                    a.P(2)
-                };
-                ld()
-            };
-            nt()
-        })({
-            loader: "static.olark.com/jsclient/loader0.js",
-            name: "olark",
-            methods: ["configure", "extend", "declare", "identify"]
-        });
-        olark.identify('5615-604-10-1042');
-        jQuery(function($) {
-            $("#style_switcher .toggler").click(function() {
-                $("#style_switcher").toggleClass("shown")
-            });
-            $("#style_switcher").style_switcher("/joomla_57740/templates/theme3197/css/color_schemes/", "/joomla_57740")
-        });
-        jQuery(function($) {
-            var e = $(window).width();
-            $("#icemegamenu").find(".icesubMenu").each(function(a) {
-                var b = $(this).offset();
-                var c = b.left + $(this).width();
-                if (c >= e) {
-                    $(this).addClass("ice_righttoleft")
-                }
-            });
-            $(window).resize(function() {
-                var d = $(window).width();
-                $("#icemegamenu").find(".icesubMenu").removeClass("ice_righttoleft").each(function(a) {
-                    var b = $(this).offset();
-                    var c = b.left + $(this).width();
-                    if (c >= d) {
-                        $(this).addClass("ice_righttoleft")
-                    }
-                })
-            })
-        });
-    </script>
+   
 
     <link href='//fonts.googleapis.com/css?family=Roboto:400,300,500,700,400italic' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
-    <script type="text/javascript">
-        /* <![CDATA[ */
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-7078796-5']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-
-        (function(b) {
-            (function(a) {
-                "__CF" in b && "DJS" in b.__CF ? b.__CF.DJS.push(a) : "addEventListener" in b ? b.addEventListener("load", a, !1) : b.attachEvent("onload", a)
-            })(function() {
-                "FB" in b && "Event" in FB && "subscribe" in FB.Event && (FB.Event.subscribe("edge.create", function(a) {
-                    _gaq.push(["_trackSocial", "facebook", "like", a])
-                }), FB.Event.subscribe("edge.remove", function(a) {
-                    _gaq.push(["_trackSocial", "facebook", "unlike", a])
-                }), FB.Event.subscribe("message.send", function(a) {
-                    _gaq.push(["_trackSocial", "facebook", "send", a])
-                }));
-                "twttr" in b && "events" in twttr && "bind" in twttr.events && twttr.events.bind("tweet", function(a) {
-                    if (a) {
-                        var b;
-                        if (a.target && a.target.nodeName == "IFRAME") a: {
-                            if (a = a.target.src) {
-                                a = a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);
-                                b = 0;
-                                for (var c; c = a[b]; ++b)
-                                    if (c.indexOf("url") === 0) {
-                                        b = unescape(c.split("=")[1]);
-                                        break a
-                                    }
-                            }
-                            b = void 0
-                        }
-                        _gaq.push(["_trackSocial", "twitter", "tweet", b])
-                    }
-                })
-            })
-        })(window);
-        /* ]]> */
-    </script>
+  
 </head>
 
 <body class="body__about option-com_content view-category task- itemid-134">
@@ -541,13 +77,13 @@
                             <div class="module_container">
                                 <div class="icemegamenu">
                                     <ul id="icemegamenu">
-                                        <li id="iceMenu_101" class="iceMenuLiLevel_1 current active fullwidth">
-                                            <a href="index.html" class="icemega_active iceMenuTitle ">
+                                        <li id="iceMenu_101" class="iceMenuLiLevel_1 fullwidth">
+                                            <a href="index.html" class=" iceMenuTitle ">
                                                 <span class="icemega_title icemega_nosubtitle">Home</span>
                                             </a>
                                         </li>
-                                        <li id="iceMenu_335" class="iceMenuLiLevel_1 mzr-drop parent ">
-                                            <a class=" iceMenuTitle ">
+                                        <li id="iceMenu_335" class="iceMenuLiLevel_1 mzr-drop parent current active ">
+                                            <a class=" iceMenuTitle icemega_active ">
                                                 <span class="icemega_title icemega_nosubtitle">About</span>
                                             </a>
                                             <ul class="icesubMenu icemodules sub_level_1" style="width:250px">
@@ -555,7 +91,7 @@
                                                     <div style="float:left;width:250px" class="iceCols">
                                                         <ul>
                                                             <li id="iceMenu_336" class="iceMenuLiLevel_2 ">
-                                                                <a href="about.html" class=" iceMenuTitle ">
+                                                                <a href="about.html" class=" iceMenuTitle  ">
                                                                     <span class="icemega_title icemega_nosubtitle">Meet the #FitSquad</span>
                                                                 </a>
                                                             </li>
@@ -569,18 +105,18 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li id="iceMenu_134" class="iceMenuLiLevel_1 ">
+<!--                                         <li id="iceMenu_134" class="iceMenuLiLevel_1 ">
                                             <a href="/index.php/about" class=" iceMenuTitle ">
                                                 <span class="icemega_title icemega_nosubtitle">Classes</span>
                                             </a>
                                          
-                                        </li>
+                                        </li> -->
                                         <li id="iceMenu_285" class="iceMenuLiLevel_1 ">
-                                            <a href="/index.php/blog" class=" iceMenuTitle ">
+                                            <a href="pricing.html" class=" iceMenuTitle ">
                                                 <span class="icemega_title icemega_nosubtitle">Membership</span>
                                             </a>
                                         </li>
-                                        <li id="iceMenu_203" class="iceMenuLiLevel_1 gallery">
+<!--                                         <li id="iceMenu_203" class="iceMenuLiLevel_1 gallery">
                                             <a href="/index.php/gallery" class=" iceMenuTitle ">
                                                 <span class="icemega_title icemega_nosubtitle">Schedule</span>
                                             </a>
@@ -599,7 +135,7 @@
                                             <a href="/index.php/contacts" class=" iceMenuTitle ">
                                                 <span class="icemega_title icemega_nosubtitle">Contact</span>
                                             </a>
-                                        </li>
+                                        </li> -->
                                    <!--      <li id="iceMenu_437" class="iceMenuLiLevel_1 mzr-drop parent menu-search">
                                             <a href="#" class=" iceMenuTitle ">
                                                 <span class="icemega_title icemega_nosubtitle">Search</span>
@@ -645,7 +181,7 @@
                             <div class="moduletable   span12">
                                 <div class="module_container">
                                     <ul class="breadcrumb">
-                                        <li><a href="/joomla_57740/index.php" class="pathway">Home</a><span class="divider"></span>
+                                        <li><a href="index.html" class="pathway">Home</a><span class="divider"></span>
                                         </li>
                                         <li class="active"><span>About</span>
                                         </li>
@@ -671,15 +207,51 @@
                     </div>
                 </div>
             </div>
-            <!-- mainbottom -->
+
+           <!-- mainbottom -->
             <div id="mainbottom">
+                <div class="row-container">
+                    <div class="container-fluid">
+                        <div class="row-fluid">
+                            <div class="moduletable hello  ">
+                                <div class="module_container">
+                                    <header>
+                                        <h3 class="moduleTitle "><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Arya</span> <!-- <span class="item_title_part_1 item_title_part_even item_title_part_first_half">our</span>  --><span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Fitness</span></h3>
+                                    </header>
+                                    <div class="mod-article-single mod-article-single__hello" id="module_214">
+                                        <div class="item__module" id="item_154">
+
+<!--                                         	<div class="item_content">	
+
+                                        	</div> -->
+                                            <!-- Intro Text -->
+                                            <div class="item_introtext">
+                                                    <p>Arya Fitness Studio is a women’s only studio that emphasizes the idea of having fun while getting fit! Arya’s unique selection of classes allows each individual a chance to better their lives and achieve all their fitness goals.</p>
+                                                    <p>Whether if its hanging upside-down and wrapping your body in a silk hammock, bending and twisting your body gracefully around a circle in the sky during aerial hoop, learning intricate and mesmerizing moves on a chrome pole, or taking one of our fun and challenging fitness classes…we have a place for everyone in the studio.</p>
+                                                    <p>Arya Fitness Studio promotes not only the building of muscles, but also self confidence, self love and friendships. This studio is designed to bring women together in an atmosphere of positivity, where each member shares in the desire to become healthier in body, mind and soul….</p>
+                                                    <p>We are the only female focused fitness studio in Fairfield County offering a variety of aerial arts classes! Fly your way to fitness with our Aerial Arts classes!</p>
+                                                    <p>Small Classes...Intimate Setting...Empowering and Elevating Your Soul!</p>
+                                            </div>
+ 											<img style="margin-top:20px;" src="images/about.jpg" alt="Disco">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- mainbottom -->
+       <!--      <div id="mainbottom">
                 <div class="row-container">
                     <div class="container-fluid">
                         <div class="row-fluid">
                             <div class="moduletable club  span6">
                                 <div class="module_container">
                                     <header>
-                                        <h3 class="moduleTitle "><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Daniela</span> <!-- <span class="item_title_part_1 item_title_part_even item_title_part_first_half">our</span>  --><span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Nero</span></h3>
+                                        <h3 class="moduleTitle "><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Daniela</span> <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Nero</span></h3>
                                     </header>
                                     <div class="mod-article-single mod-article-single__club" id="module_214">
                                         <div class="item__module" id="item_154">
@@ -701,7 +273,7 @@
                                             		<li>Apple and Buff Bake Chocolate Chip Peanut Butter</li>
 												</ul>
                                         	</div>
-                                            <!-- Intro Text -->
+
                                             <div class="item_introtext">
                                             	<p></p>
 
@@ -716,25 +288,36 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- mainbottom-2 -->
-<!--             <div id="mainbottom-2">
+            <div id="mainbottom-2">
                 <div class="row-container">
                     <div class="container-fluid">
                         <div class="row-fluid">
-                            <div class="moduletable testimonials_about  span12">
+                            <div class="moduletable testimonials_daniela  span12">
                                 <div class="module_container">
                                     <header>
-                                        <h3 class="moduleTitle "><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first item_title_part_last">Testimonials</span></h3>
+                                        <h3 class="moduleTitle "><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first item_title_part_last">Daniela Nero</span></h3>
                                     </header>
                                     <div class="mod-article-single mod-article-single__testimonials_about" id="module_215">
                                         <div class="item__module" id="item_155">
 
-
+                                        	<div class="item_content">
+                                            	<ul>
+		                                        	<li style="font-weight: bold;">Owner, Fitness Instructor</li>
+		                                        	<li style="font-weight: bold;">NAFC Personal Training Certified</li>
+		                                        	<li style="font-weight: bold;">NAFC Nutrition Coach Certified</li>
+		                                        	<li style="font-weight: bold;">Spinning and PiYo Certifiend</li>
+                                            	</ul>
+                                        	</div>
                                             <div class="item_introtext">
+                                                <p>Growing up in Brazil, a professional ballerina for 15 years…Daniela has always loved music and movement. Having 2 daughters, Daniela has worked hard to get back in shape, and fitness was an essential tool to get her body back in shape. Daniela has always dreamt of owning a fitness studio of her own, and when the opportunity to start Arya Fitness Studio came along, she was ready for the journey!</p>
+                                                <p>She fell in love with rode cycling and swimming and this past summer she completed 2 triathlons and her first century ride. She’s a certified spinning instructor and recently completed her personal training and nutrition certification. She’s passionate about creating a community of women who feel empowered and beautiful!</p> 
+												<p>Daniela brings high energy, motivation, inspiration and a challenge to her classes that will leave you wanting more! She currently teaches a variety of fitness classes and basic aerial hammock.</p>
+												<h5 class="heading-style-2">Favorite Snack: Apple and Buff Bake Chocolate Chip Peanut Butter</h5>
                                                 <blockquote>
-                                                    <p>From the moment we arrived we were treated with the highest of friendliness as well as professionalism, the lovely White was amazing on the night continually checking to make sure that we had everything we needed.</p>
-                                                    <small>Caroline Beek</small>
+                                                    The body achieves what the mind believes.
+                                                    <p>BELIEVE you are born to achieve great things.</p>
                                                 </blockquote>
                                             </div>
                                         </div>
@@ -744,77 +327,201 @@
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
             <!-- mainbottom-3 -->
             <div id="mainbottom-3">
                 <div class="row-container">
                     <div class="container-fluid">
                         <div class="row-fluid">
-                            <div class="moduletable djs  span12">
+                            <div class="moduletable testimonials_allison  span12">
                                 <div class="module_container">
                                     <header>
-                                        <h3 class="moduleTitle "><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Our</span> <span class="item_title_part_1 item_title_part_even item_title_part_second_half item_title_part_last">#FitSquad</span></h3>
+                                        <h3 class="moduleTitle "><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first item_title_part_last">Allison Donofrio</span></h3>
                                     </header>
-                                    <div class="mod-newsflash-adv mod-newsflash-adv__djs cols-3" id="module_216">
-                                        <div class="row-fluid">
-                                            <article class="span4 item item_num0 item__module  " id="item_156">
-                                    <header>
-                                        <h3 class="moduleTitle "><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Our</span> <span class="item_title_part_1 item_title_part_even item_title_part_second_half item_title_part_last">#FitSsquad</span></h3>
-                                    </header>
-                                                <div class="item_content">	
-	                                            	<ul>
-	                                            		<li style="font-weight: bold;">Favorite Quote:</li>
-	                                            		<li>"If it doesn’t challenge you, it wont change you"</li>
-													</ul>
-													<ul>
-	                                            		<li style="font-weight: bold;">Favorite Snack:</li>
-	                                            		<li>Hummus with gluten free pretzels</li>
-													</ul>
-                                        		</div>
-                                        		<div class="item_introtext">
-	                                            	<p></p>
+                                    <div class="mod-article-single mod-article-single__testimonials_about" id="module_215">
+                                        <div class="item__module" id="item_155">
+<!-- 
+                                        	<div class="item_content">
 
-	                                                <p>Allison has been an enthusiastic fitness instructor for 3 years. She teaches an array of strength training, whole body, and aerial classes. Working out with women of all walks of life, each sharing in the same lifestyle dream, is what drives Allison to create challenging and unique classes that are bound to impact create challenging and unique classes that are bound to impact in her clients, both physically and emotionally.</p>
-	                                                <p>You'll leave feeling the 'good kind of sore', and proud of not giving up. When she’s not teaching classes, you will find Allison at the front desk greeting members and answering any questions you may have. Join Allison in one of her classes as well as in her journey to expand her fitness knowledge.</p>
+                                        	</div> -->
+                                            <div class="item_introtext">
+                                                <p>Allison has been an enthusiastic fitness instructor for 3 years. She teaches an array of strength training, whole body, and aerial classes. Working out with women of all walks of life, each sharing in the same lifestyle dream, is what drives Allison to create challenging and unique classes that are bound to impact create challenging and unique classes that are bound to impact in her clients, both physically and emotionally.</p>
+                                                <p>You'll leave feeling the 'good kind of sore', and proud of not giving up. When she’s not teaching classes, you will find Allison at the front desk greeting members and answering any questions you may have. Join Allison in one of her classes as well as in her journey to expand her fitness knowledge.</p>
+												<h5 class="heading-style-2">Favorite Snack: Hummas with gluten free pretzels.</h5>
+                                                <blockquote>
+                                                    <p>If it doesn't challenge you, it will not change you.</p>
+                                                </blockquote>
                                             </div>
-                                                <div class="clearfix"></div>
-                                            </article>
-                                            <article class="span4 item item_num1 item__module  " id="item_157">
-
-                                                <div class="item_content">
-                                                    <!-- Item title -->
-                                                    <!-- Introtext -->
-                                                    <div class="item_introtext">
-                                                        <p class='data'>Thursday, Oct. 8, 2015 at 10:00 pm</p>
-                                                        <p class='place'>Las Vegas, NV · Tao at the Venetian · Ages: 21+</p>
-                                                        <p class='small'>Tom Nelson</p>
-                                                    </div>
-
-
-                                                    <!-- Read More link -->
-                                                </div>
-                                                <div class="clearfix"></div>
-                                            </article>
-                                            <article class="span4 item item_num2 item__module  lastItem" id="item_158">
-
-                                                <div class="item_content">
-                                                    <!-- Item title -->
-                                                    <!-- Introtext -->
-                                                    <div class="item_introtext">
-                                                        <p class='data'>Friday, Oct. 9, 2015 at 10:00 pm</p>
-                                                        <p class='place'>Las Vegas, NV · MGM Resorts Village · Ages: 21+</p>
-                                                        <p class='small'>Richard Cox</p>
-                                                    </div>
-
-
-                                                    <!-- Read More link -->
-                                                </div>
-                                                <div class="clearfix"></div>
-                                            </article>
                                         </div>
-                                        <div class="clearfix"></div>
-
                                     </div>
+                                                             <div class="wrapper2">
+
+				<ul id="sb-slider" class="sb-slider">
+					<li>
+						<a href="http://www.flickr.com/photos/strupler/2969141180" target="_blank"><img src="images/1.jpg" alt="image1"/></a>
+<!-- 						<div class="sb-description">
+							<h3>Creative Lifesaver</h3>
+						</div> -->
+					</li>
+					<li>
+						<a href="http://www.flickr.com/photos/strupler/2968268187" target="_blank"><img src="images/2.jpg" alt="image2"/></a>
+						<div class="sb-description">
+							<h3>Honest Entertainer</h3>
+						</div>
+					</li>
+					<li>
+						<a href="http://www.flickr.com/photos/strupler/2968114825" target="_blank"><img src="images/3.jpg" alt="image1"/></a>
+<!-- 						<div class="sb-description">
+							<h3>Brave Astronaut</h3>
+						</div> -->
+					</li>
+					<li>
+						<a href="http://www.flickr.com/photos/strupler/2968122059" target="_blank"><img src="images/4.jpg" alt="image1"/></a>
+						<div class="sb-description">
+							<h3>Affectionate Decision Maker</h3>
+						</div>
+					</li>
+					<li>
+						<a href="http://www.flickr.com/photos/strupler/2969119944" target="_blank"><img src="images/5.jpg" alt="image1"/></a>
+<!-- 						<div class="sb-description">
+							<h3>Faithful Investor</h3>
+						</div> -->
+					</li>
+					<li>
+						<a href="http://www.flickr.com/photos/strupler/2968126177" target="_blank"><img src="images/6.jpg" alt="image1"/></a>
+						<div class="sb-description">
+							<h3>Groundbreaking Artist</h3>
+						</div>
+					</li>
+					<li>
+						<a href="http://www.flickr.com/photos/strupler/2968945158" target="_blank"><img src="images/7.jpg" alt="image1"/></a>
+<!-- 						<div class="sb-description">
+							<h3>Selfless Philantropist</h3>
+						</div> -->
+					</li>
+				</ul>
+
+				<div id="shadow" class="shadow"></div>
+
+				<div id="nav-arrows" class="nav-arrows">
+					<a href="#">Next</a>
+					<a href="#">Previous</a>
+				</div>
+
+				<div id="nav-dots" class="nav-dots">
+					<span class="nav-dot-current"></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+
+			</div><!-- /wrapper -->
+    
+                                </div>
+                            </div>
+
+                        </div>
+                 
+                    </div>
+                </div>
+            </div>
+            <!-- mainbottom-2 -->
+            <div id="mainbottom-2">
+                <div class="row-container">
+                    <div class="container-fluid">
+                        <div class="row-fluid">
+                            <div class="moduletable testimonials_daniela  span12">
+                                <div class="module_container">
+                                    <header>
+                                        <h3 class="moduleTitle "><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first item_title_part_last">Nicole Reymond</span></h3>
+                                    </header>
+                                    <div class="mod-article-single mod-article-single__testimonials_about" id="module_215">
+                                        <div class="item__module" id="item_155">
+
+                                        	<div class="item_content">
+                                            	<ul>
+		                                        	<li style="font-weight: bold;">AFAA Certified Trainer</li>
+                                            	</ul>
+                                        	</div>
+
+                                            <div class="item_introtext">
+                                                <p>Nicole has worked her way up in the fitness world from a gym receptionist to now one of the top pole instructors in the area. She has dedicated eight years to improving and perfecting the art of pole fitness.</p>
+                                                <p>Pole has changed Nicole's life in many ways, especially with self confidence and body image. She believes the best part of teaching is sharing her experiences and promoting self awareness, growth, and love with her clients. Nicole is grateful to be a part of an all female fitness studio, which has turned a community of women into life long friends and family members. As an AFFA certified trainer you will also find Nicole in the fitness room working that lower body! She looks forward to continuing to make her mark in the fitness world and encourage others to be their own personal best. </p>
+												<h5 class="heading-style-2">Favorite Snack: Hard-boiled Eggs</h5>
+                                                <blockquote>
+                                                    <p>You don’t have to be great to start, but you have to start to be great!</p>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                                                 <div class="wrapper2">
+
+				<ul id="sb-slider2" class="sb-slider">
+					<li>
+						<a href="http://www.flickr.com/photos/strupler/2969141180" target="_blank"><img src="images/1.jpg" alt="image1"/></a>
+<!-- 						<div class="sb-description">
+							<h3>Creative Lifesaver</h3>
+						</div> -->
+					</li>
+					<li>
+						<a href="http://www.flickr.com/photos/strupler/2968268187" target="_blank"><img src="images/2.jpg" alt="image2"/></a>
+						<div class="sb-description">
+							<h3>Honest Entertainer</h3>
+						</div>
+					</li>
+					<li>
+						<a href="http://www.flickr.com/photos/strupler/2968114825" target="_blank"><img src="images/3.jpg" alt="image1"/></a>
+<!-- 						<div class="sb-description">
+							<h3>Brave Astronaut</h3>
+						</div> -->
+					</li>
+					<li>
+						<a href="http://www.flickr.com/photos/strupler/2968122059" target="_blank"><img src="images/4.jpg" alt="image1"/></a>
+						<div class="sb-description">
+							<h3>Affectionate Decision Maker</h3>
+						</div>
+					</li>
+					<li>
+						<a href="http://www.flickr.com/photos/strupler/2969119944" target="_blank"><img src="images/5.jpg" alt="image1"/></a>
+<!-- 						<div class="sb-description">
+							<h3>Faithful Investor</h3>
+						</div> -->
+					</li>
+					<li>
+						<a href="http://www.flickr.com/photos/strupler/2968126177" target="_blank"><img src="images/6.jpg" alt="image1"/></a>
+						<div class="sb-description">
+							<h3>Groundbreaking Artist</h3>
+						</div>
+					</li>
+					<li>
+						<a href="http://www.flickr.com/photos/strupler/2968945158" target="_blank"><img src="images/7.jpg" alt="image1"/></a>
+<!-- 						<div class="sb-description">
+							<h3>Selfless Philantropist</h3>
+						</div> -->
+					</li>
+				</ul>
+
+				<div id="shadow2" class="shadow"></div>
+
+				<div id="nav-arrows2" class="nav-arrows">
+					<a href="#">Next</a>
+					<a href="#">Previous</a>
+				</div>
+
+				<div id="nav-dots2" class="nav-dots">
+					<span class="nav-dot-current"></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+
+			</div><!-- /wrapper -->
                                 </div>
                             </div>
                         </div>
@@ -858,9 +565,9 @@
                         <div class="row-fluid">
 
                             <div class="copyright span12">
-                                <span class="siteName">Disco</span>
-                                <span class="copy">&copy;</span><span class="year">2016</span> <a class="privacy_link" rel="license" href="/joomla_57740/index.php/privacy-policy">
-                                        Privacy Policy                                    </a>
+                                <span class="siteName">PlasmaScape</span>
+                                <span class="copy">&copy;</span><span class="year">2016</span> <!-- <a class="privacy_link" rel="license" href="/joomla_57740/index.php/privacy-policy">
+                                        Privacy Policy                                    </a> -->
                             </div>
                             <!-- {%FOOTER_LINK} -->
                         </div>
@@ -1030,6 +737,165 @@
             "agent": "js-agent.newrelic.com\/nr-768.min.js"
         }
     </script> -->
+		<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+        <script type="text/javascript" src="js/jquery.slicebox.js"></script>
+   	<script type="text/javascript">
+			jQuery(function($) {
+
+				var Page = (function() {
+
+					var $navArrows = $( '#nav-arrows' ).hide(),
+						$navDots = $( '#nav-dots' ).hide(),
+						$nav = $navDots.children( 'span' ),
+						$shadow = $( '#shadow' ).hide(),
+						slicebox = $( '#sb-slider' ).slicebox( {
+							onReady : function() {
+
+								$navArrows.show();
+								$navDots.show();
+								$shadow.show();
+
+							},
+							onBeforeChange : function( pos ) {
+
+								$nav.removeClass( 'nav-dot-current' );
+								$nav.eq( pos ).addClass( 'nav-dot-current' );
+
+							},
+							orientation : 'r',
+							cuboidsRandom : true
+						} ),
+						
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							// add navigation events
+							$navArrows.children( ':first' ).on( 'click', function() {
+
+								slicebox.next();
+								return false;
+
+							} );
+
+							$navArrows.children( ':last' ).on( 'click', function() {
+								
+								slicebox.previous();
+								return false;
+
+							} );
+
+							$nav.each( function( i ) {
+							
+								$( this ).on( 'click', function( event ) {
+									
+									var $dot = $( this );
+									
+									if( !slicebox.isActive() ) {
+
+										$nav.removeClass( 'nav-dot-current' );
+										$dot.addClass( 'nav-dot-current' );
+									
+									}
+									
+									slicebox.jump( i + 1 );
+									return false;
+								
+								} );
+								
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+
+
+				var Page2 = (function() {
+
+					var $navArrows = $( '#nav-arrows2' ).hide(),
+						$navDots = $( '#nav-dots2' ).hide(),
+						$nav = $navDots.children( 'span' ),
+						$shadow = $( '#shadow2' ).hide(),
+						slicebox = $( '#sb-slider2' ).slicebox( {
+							onReady : function() {
+
+								$navArrows.show();
+								$navDots.show();
+								$shadow.show();
+
+							},
+							onBeforeChange : function( pos ) {
+
+								$nav.removeClass( 'nav-dot-current' );
+								$nav.eq( pos ).addClass( 'nav-dot-current' );
+
+							},
+							orientation : 'r',
+							cuboidsRandom : true
+						} ),
+						
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							// add navigation events
+							$navArrows.children( ':first' ).on( 'click', function() {
+
+								slicebox.next();
+								return false;
+
+							} );
+
+							$navArrows.children( ':last' ).on( 'click', function() {
+								
+								slicebox.previous();
+								return false;
+
+							} );
+
+							$nav.each( function( i ) {
+							
+								$( this ).on( 'click', function( event ) {
+									
+									var $dot = $( this );
+									
+									if( !slicebox.isActive() ) {
+
+										$nav.removeClass( 'nav-dot-current' );
+										$dot.addClass( 'nav-dot-current' );
+									
+									}
+									
+									slicebox.jump( i + 1 );
+									return false;
+								
+								} );
+								
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page2.init();
+
+
+
+
+			});
+		</script>
 </body>
 
 </html>
