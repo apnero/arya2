@@ -10551,6 +10551,10 @@ body.mobile_mode.mobile div#fixed-sidebar-right .moduletable.login {
   height: 280px;
 }
 
+.ac-container input:checked ~ article.ac-xxlarge{
+  height: 335px;
+}
+
 .classtype {
 padding: 12px;
 //background-color: #B9B9B9;
