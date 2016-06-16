@@ -9330,7 +9330,7 @@ body.body__home .footer-wrapper-inner {
   border: none;
 }
 body.body__home #showcase {
-  padding: 500px 0 340px;
+  padding: 150px 0 140px;
   background: #fafafa url(../images/bg_1.jpg) center 0 no-repeat fixed;
   position: relative;
   background-size: cover;
@@ -9356,22 +9356,54 @@ body.body__about #mainbottom {
 }
 body.body__about #mainbottom-2 {
   padding: 260px 0 300px;
-  background: #fafafa url(../images/danila.png) center 0 no-repeat fixed;
+  background: #aafafa url(../images/danila.png) center 0 no-repeat fixed;
   position: relative;
   background-size: cover;
 }
 body.body__about #mainbottom-3 {
   padding: 260px 0 300px;
-  background: #fafafa url(../images/allisonimg.png) center 0 no-repeat fixed;
+  background: #aafafa url(../images/allisonimg.png) center 0 no-repeat fixed;
   position: relative;
   background-size: cover;
 }
-body.body__about #mainbottom-4 {
+// body.body__about #mainbottom-4 {
+//   padding: 260px 0 300px;
+//   background: #fafafa url(../images/bg_6.jpg) center 0 no-repeat fixed;
+//   position: relative;
+//   background-size: cover;
+// }
+body.body__about #mainbottom-5 {
   padding: 260px 0 300px;
-  background: #fafafa url(../images/bg_6.jpg) center 0 no-repeat fixed;
+  background: #fafafa url(../images/nicole.png) center 0 no-repeat fixed;
   position: relative;
   background-size: cover;
 }
+body.body__about #mainbottom-6 {
+  padding: 260px 0 300px;
+  background: #fafafa url(../images/marybeth.png) center 0 no-repeat fixed;
+  position: relative;
+  background-size: cover;
+}
+body.body__about #mainbottom-7 {
+  padding: 260px 0 300px;
+  background: #aafafa url(../images/christine.png) center 0 no-repeat fixed;
+  position: relative;
+  background-size: cover;
+}
+body.body__about #mainbottom-8 {
+  padding: 260px 0 300px;
+  background: #fafafa url(../images/alex.png) center 0 no-repeat fixed;
+  position: relative;
+  background-size: cover;
+}
+body.body__about #mainbottom-9 {
+  padding: 260px 0 300px;
+  background: #aafafa url(../images/aly.png) center 0 no-repeat fixed;
+  position: relative;
+  background-size: cover;
+}
+
+
 body.body__works .wrapper-inner {
   overflow: hidden;
 }
@@ -9718,14 +9750,29 @@ body.mobile_mode.mobile div#fixed-sidebar-right .moduletable.login {
     // padding: 50px 0 280px;
   }
   body.body__home #showcase {
-    padding: 280px 0 280px;
+    padding: 120px 0 120px;
   }
   body.body__about #mainbottom-2 {
     padding: 200px 0 200px;
   }
-  body.body__about #mainbottom-4 {
-    padding: 200px 0 200px;
-  }
+  // body.body__about #mainbottom-4 {
+  //   padding: 200px 0 200px;
+  // }
+  // body.body__about #mainbottom-5 {
+  //   padding: 200px 0 200px;
+  // }
+  // body.body__about #mainbottom-6 {
+  //   padding: 200px 0 200px;
+  // }
+  // body.body__about #mainbottom-7 {
+  //   padding: 200px 0 200px;
+  // }
+  // body.body__about #mainbottom-8 {
+  //   padding: 200px 0 200px;
+  // }
+  // body.body__about #mainbottom-9 {
+  //   padding: 200px 0 200px;
+  // }
   .mod-newsflash-adv__home_gallery .item {
     padding-left: 0 !important;
   }
@@ -9810,14 +9857,29 @@ body.mobile_mode.mobile div#fixed-sidebar-right .moduletable.login {
     // padding: 50px 0 180px;
   }
   body.body__home #showcase {
-    padding: 180px 0 180px;
+    padding: 100px 0 100px;
   }
   body.body__about #mainbottom-2 {
     padding: 100px 0 100px;
   }
-  body.body__about #mainbottom-4 {
-    padding: 100px 0 100px;
-  }
+  // body.body__about #mainbottom-4 {
+  //   padding: 100px 0 100px;
+  // }
+  // body.body__about #mainbottom-5 {
+  //   padding: 200px 0 200px;
+  // }
+  // body.body__about #mainbottom-6 {
+  //   padding: 200px 0 200px;
+  // }
+  // body.body__about #mainbottom-7 {
+  //   padding: 200px 0 200px;
+  // }
+  // body.body__about #mainbottom-8 {
+  //   padding: 200px 0 200px;
+  // }
+  // body.body__about #mainbottom-9 {
+  //   padding: 200px 0 200px;
+  // }
   .camera_wrap .camera_caption > div .slide-title::before {
     content: "";
     width: 40px;
