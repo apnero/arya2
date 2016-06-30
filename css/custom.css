@@ -119,3 +119,14 @@
 	margin-top: 20px;
 	z-index: 100;
 }
+
+#pay {
+background: rgb(255, 49, 93);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 5px;
+}
+
+#pay a:hover {
+	color: #000000;
+}
