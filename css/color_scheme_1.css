@@ -364,12 +364,12 @@ blockquote cite {
 .category_desc mark {
   background: #ff315d;
 }
-ol li:before {
-  color: #31ccff;
-}
-ol li a:hover {
-  color: #ff315d;
-}
+// ol li:before {
+//   color: #31ccff;
+// }
+// ol li a:hover {
+//   color: #ff315d;
+// }
 .item_introtext ul li:before,
 .item_fulltext ul li:before,
 .category_desc ul li:before,

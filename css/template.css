@@ -801,14 +801,14 @@ ol li {
   position: relative;
 }
 ol li:before {
-  color: #31ccff;
-  content: counter(list, decimal-leading-zero) "/";
-  counter-increment: list;
-  left: 0;
-  padding: 0;
-  position: absolute;
-  top: 0;
-  background: none;
+  // color: #31ccff;
+  // content: counter(list, decimal-leading-zero) "/";
+  // counter-increment: list;
+  // left: 0;
+  // padding: 0;
+  // position: absolute;
+  // top: 0;
+  // background: none;
 }
 ol li a {
   text-decoration: none;
