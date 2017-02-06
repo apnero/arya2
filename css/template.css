@@ -10669,6 +10669,11 @@ padding: 12px;
   font-weight: bold;
   font-size: 25px;
 }
+.price2 {
+  margin-top: 4px;
+  font-weight: bold;
+  font-size: 18px;
+}
 // .price::after {
 //   content: " / month per user";
 //   font-weight: normal;
@@ -10690,6 +10695,10 @@ padding: 12px;
   position: relative;
   bottom: -20px;
 }
+.package2 {
+
+  margin-top: 3px;
+}
 .package ul {
   list-style: none;
   padding: 0;
@@ -10700,6 +10709,8 @@ padding: 12px;
   margin-bottom: 15px;
   line-height: 1;
 }
+
+
 .checkIcon {
   font-family: "FontAwesome";
   content: "\f00c";
@@ -10707,6 +10718,14 @@ padding: 12px;
 .package li::before {
   font-family: "FontAwesome";
   content: "\f00c";
+  font-size: 1.3rem;
+  color: #33c4b6;
+  margin-right: 3px;
+}
+
+.package2 li::before {
+  font-family: "FontAwesome";
+  content: "\f10c";
   font-size: 1.3rem;
   color: #33c4b6;
   margin-right: 3px;
