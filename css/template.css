@@ -9726,7 +9726,7 @@ body.mobile_mode.mobile div#fixed-sidebar-right .moduletable.login {
 ========================================================================*/
 @media (max-width: 1274px) {
   .home_menu .icemegamenu {
-    max-width: 700px;
+    max-width: 800px;
   }
   .camera_wrap .camera_caption > div .slide-title {
     font: 700 100px/100px 'Montserrat', sans-serif;
@@ -9812,7 +9812,7 @@ body.mobile_mode.mobile div#fixed-sidebar-right .moduletable.login {
     padding: 10px 0 11px;
   }
   #top .home_menu .icemegamenu {
-    max-width: 600px;
+    max-width: 700px;
   }
   .camera_wrap .camera_caption > div .slide-title {
     font: 700 70px/70px 'Montserrat', sans-serif;
@@ -9974,7 +9974,7 @@ body.mobile_mode.mobile div#fixed-sidebar-right .moduletable.login {
     bottom: 15%;
   }
   #top .home_menu .icemegamenu {
-    max-width: 500px;
+    max-width: 600px;
   }
   .btn {
     font-family: 'Montserrat', sans-serif;
@@ -10005,7 +10005,7 @@ body.mobile_mode.mobile div#fixed-sidebar-right .moduletable.login {
     margin-bottom: 20px;
   }
   #top .home_menu .icemegamenu {
-    max-width: 470px;
+    max-width: 550px;
   }
   .moduletable.events {
     padding-top: 80px;
